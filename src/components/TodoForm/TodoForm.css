@@ -1,0 +1,75 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 2.5rem 2.5rem 0 2.5rem;
+    background-color: var(--secondaryBackground);
+    background-image: var(--backgroundSmall);
+    background-repeat: repeat-x;
+}
+
+label {
+    font-size: 2.5rem;
+    margin: 1rem 0 1rem 0;
+}
+
+textarea {
+    width: 80%;
+    height: 60%;
+    border: .1rem solid var(--background);
+    resize: none;
+    font-size: 2rem;
+    text-align: center;
+    background-color: var(--secondaryBackground);
+    background-image: var(--backgroundBig);
+    color: var(--primrayText);
+}
+
+textarea::placeholder {
+    color: var(--secondaryText);
+}
+
+textarea:focus {
+    outline: none;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+    color: var(--secondaryText);
+}
+
+.buttons {
+    margin-top: 1rem;
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button {
+    border: 0;
+    font-size: 1.8rem;
+    color: var(--primrayText);
+    border-radius: 1.5rem;
+    width: 15rem;
+    height: 6rem;
+}
+
+.add-button {
+    background-color: var(--completed);
+}
+.add-button:hover {
+    background-color: var(--completedSecondary);
+}
+
+.back-button:hover {
+    background-color: var(--errorSecondary);
+}
+.back-button {
+    background-color: var(--error);
+
+}

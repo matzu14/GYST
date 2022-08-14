@@ -1,0 +1,18 @@
+.Input-search {
+    width: 80%;
+    place-self: center;
+    font-size: 2rem;
+    outline: none;
+    border: 0;
+    padding-left: .5rem;
+    border-radius: .5rem;
+
+}
+.Input-search::placeholder {
+    color: var(--blackText);
+}
+.Input-search:focus{
+    border: 0;
+    background-color: var(--inputBackground);
+    outline: none;
+}

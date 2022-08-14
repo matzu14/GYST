@@ -1,0 +1,5 @@
+.todoCounter {
+    text-align: center;
+    color: var(--primaryText);
+    margin-bottom: .5rem;
+}

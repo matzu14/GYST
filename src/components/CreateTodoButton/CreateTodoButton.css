@@ -1,0 +1,22 @@
+.CreateTodoButton {
+    background-color: var(--primary-button);
+    display: grid;
+    border: none;
+    cursor: pointer;
+    font-size: 5rem;
+    position: fixed;
+    bottom: 4.8rem;
+    right: 4.8rem;
+    border-radius: 50%;
+    place-content: center;
+    width: 6.4rem;
+    height: 6.4rem;
+    transform: rotate(0);
+    transition: .6s ease;
+    z-index: 1;
+}
+.CreateTodoButton:hover {
+    transform: rotate(220deg);
+    background-color: var(--secondaryText);
+    color: var(--background);
+}
