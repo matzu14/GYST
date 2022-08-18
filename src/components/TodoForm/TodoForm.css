@@ -36,6 +36,10 @@ textarea:focus {
     outline: none;
 }
 
+textarea:focus::placeholder {
+    color: transparent;
+}
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;

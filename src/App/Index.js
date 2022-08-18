@@ -14,6 +14,7 @@ import { TodosError } from '../components/TodosError';
 import { TodosLoading } from '../components/TodosLoading';
 import { EmptyTodos } from '../components/EmptyTodos';
 import { TodoHeader } from "../components/TodoHeader";
+import { ChangeAlertWithStorageListener } from '../components/ChangeAlert';
 
 //! Guardao por si acaso
 // function App() {
@@ -72,6 +73,7 @@ function App() {
     searchValue,
     setSearchValue,
     addTodo,
+    sincronizeTodos,
   } = useTodos();
   return (
 
@@ -136,6 +138,10 @@ function App() {
       <CreateTodoButton
         setOpenModal={setOpenModal}
         openModal={openModal}
+      />
+
+      <ChangeAlertWithStorageListener
+        sincronize={sincronizeTodos}
       />
     </>
   );

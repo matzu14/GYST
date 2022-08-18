@@ -1,0 +1,23 @@
+.wrapper {
+    display: grid;
+    place-self: center;
+    place-items: center;
+    margin-bottom: 2rem;
+}
+.alert-text {
+ margin: 1rem 0;
+ font-size: 2rem;
+}
+.alert-button {
+    padding: 1.5rem;
+    font-size: 2rem;
+    background-color: var(--primary-button);
+    border-radius: 1rem;
+    font-weight: bold;
+    transition: border-radius .5s, background-color .2s;
+}
+.alert-button:hover {
+    background-color: var(--primaryText);
+    cursor: pointer;
+    border-radius: 5rem;
+}

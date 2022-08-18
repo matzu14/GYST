@@ -1,9 +1,27 @@
+.counter-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin: 1rem auto;
+}
 .todoCounter {
-    text-align: center;
+    align-content: center;
     color: var(--primaryText);
     margin-bottom: .5rem;
 }
 .todoCounter--loading {
     opacity: 25%;
     color: var(--secondaryText);
+}
+
+.header-logo{
+    height: 10rem;
+}
+.header-logo:hover{
+    background-image: url(https://static1.e621.net/data/b4/bb/b4bb26f5eeba7b6481458e117fed8ad5.gif);
+}
+.counter-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

@@ -4,6 +4,7 @@ import './TodoHeader.css'
 function TodoHeader({ children, loading }) {
 
     return (
+
         <header>
             {
                 React.Children
@@ -12,6 +13,7 @@ function TodoHeader({ children, loading }) {
                     (child => React.cloneElement(child, { loading }))
             }
         </header>
+
     );
 }
 export { TodoHeader };
