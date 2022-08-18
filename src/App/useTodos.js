@@ -70,7 +70,8 @@ function useTodos() {
         totalTodos,
         completedTodos,
         searchValue,
-        setSearchValue
+        setSearchValue,
+        addTodo
     };
 }
 export { useTodos }

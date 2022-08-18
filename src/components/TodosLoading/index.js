@@ -1,8 +1,9 @@
 import React from "react"
+import '../../App/App.css'
 
 function TodosLoading() {
     return (
-        <p>Loading please wait . . .</p>
+        <p className="aditionalText">Loading please wait . . .</p>
     )
 }
 export { TodosLoading }

@@ -1,6 +1,8 @@
+import '../../App/App.css'
+
 function TodosError() {
     return (
-        <p>For fuck's sake there was a error</p>
+        <p className="aditionalText">For fuck's sake there was a error</p>
     )
 }
 export { TodosError };

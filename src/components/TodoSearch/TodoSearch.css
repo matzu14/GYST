@@ -16,3 +16,6 @@
     background-color: var(--inputBackground);
     outline: none;
 }
+.Input-search:disabled {
+    
+}

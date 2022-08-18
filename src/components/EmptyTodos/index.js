@@ -1,7 +1,8 @@
+import '../../App/App.css'
 
 function EmptyTodos() {
     return (
-        <p>Nobody here but us chickens!</p>
+        <p className="aditionalText">Nobody here but us chickens!</p>
     )
 }
 export { EmptyTodos };

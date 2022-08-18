@@ -3,3 +3,7 @@
     color: var(--primaryText);
     margin-bottom: .5rem;
 }
+.todoCounter--loading {
+    opacity: 25%;
+    color: var(--secondaryText);
+}
