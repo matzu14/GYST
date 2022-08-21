@@ -1,9 +1,13 @@
 import React from "react"
-import '../../App/App.css'
+import './TodosLoading.css'
 
-function TodosLoading() {
+function TodosLoading({ error }) {
     return (
-        <p className="aditionalText">Loading please wait . . .</p>
-    )
+        <div className="Loading-TodoItem">
+
+            <p className='Loading-TodoItem-p'>Loading please wait</p>
+
+        </div>
+    );
 }
 export { TodosLoading }

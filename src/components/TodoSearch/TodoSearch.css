@@ -4,9 +4,10 @@
     font-size: 2rem;
     outline: none;
     border: 0;
-    padding-left: .5rem;
     border-radius: .5rem;
-
+    padding: .5rem 0 .5rem .5rem;
+    transition: width .2s ease-in;
+    text-align: start;
 }
 .Input-search::placeholder {
     color: var(--blackText);
@@ -16,6 +17,10 @@
     background-color: var(--inputBackground);
     outline: none;
 }
-.Input-search:disabled {
-    
+.Input-search:focus::placeholder{
+    color: transparent;
+}
+.Input-search:hover {
+    background-color: var(--inputBackground);
+    width: 85%;
 }

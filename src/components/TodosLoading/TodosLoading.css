@@ -1,4 +1,4 @@
-.TodoItem {
+.Loading-TodoItem {
     background-image: var(--backgroundLarge);
     border: .2rem solid var(--background);
     color: var(--secondaryText);
@@ -6,26 +6,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1.3rem 0;
+    margin: 2.3rem 0;
     border-radius: 1.3rem;
-}
-.TodoItem:last-child {
-    margin-bottom: 2.6rem;
-}
-.TodoItem:first-child {
-    margin-top: 2.6rem;
+    animation: loadingAnimation 3s ease-in-out infinite;
 }
 
-.TodoItem-p {
+@keyframes loadingAnimation {
+    0% {
+        background-color: var(--background);
+    }
+
+    25% {
+        background-color: var(--SecondaryBackground);
+    }
+
+    50% {
+        background-color: var(--background);
+
+    }
+
+    75% {
+        background-color: var(--SecondaryBackground);
+
+    }
+
+    100% {
+        background-color: var(--background);
+
+    }
+
+}
+
+.Loading-TodoItem-p {
     margin: 2.4rem 0 2.4rem 2.4rem;
     width: calc(100% - 12rem);
     line-height: 2.4rem;
-    cursor: default;
-}
-
-.TodoItem-p--completed {
-    text-decoration: line-through;
-    color: var(--completed);
 }
 
 .Icon {
@@ -39,36 +54,17 @@
     font-weight: bold;
 }
 
-.Icon-check {
-    position: absolute;
-    left: 1.2rem;
-}
-.Icon-check:hover{
-    color: var(--completed);
-}
-
-.Icon-check--active {
-    color: var(--completedSecondary);
-}
-.Icon-check--active:hover {
-    color: var(--completedSecondary);
-}
-
-
 .Icon-delete {
     background-color: var(--background);
+    border-radius: 5rem;
     align-items: center;
     justify-content: center;
     position: absolute;
     top: -2.5rem;
     right: 0;
-    transition: background-color .1s ease-in;
 }
 
-.Icon-delete:hover {
-    background-color: var(--error);
-    color: var(--primaryText);
-}
-.Icon-delete:active {
-    background-color: var(--errorSecondary);
+ul,
+li {
+    list-style: none;
 }

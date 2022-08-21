@@ -1,23 +1,40 @@
 .wrapper {
+    position: fixed;
+    bottom: -2rem;
+    left: -1rem;
+    right: -1rem;
     display: grid;
     place-self: center;
     place-items: center;
     margin-bottom: 2rem;
+    background-color: var(--secondaryBackground);
+    background-image: var(--backgroundLarge);
+    height: 20rem;
+    z-index: 1;
 }
 .alert-text {
- margin: 1rem 0;
- font-size: 2rem;
+ font-size: 3rem;
 }
 .alert-button {
     padding: 1.5rem;
     font-size: 2rem;
-    background-color: var(--primary-button);
+    background-color: var(--errorSecondary);
     border-radius: 1rem;
     font-weight: bold;
     transition: border-radius .5s, background-color .2s;
 }
 .alert-button:hover {
-    background-color: var(--primaryText);
+    background-color: var(--completedSecondary);
     cursor: pointer;
     border-radius: 5rem;
+}
+
+.wrapper-bg{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--backgroundTransparent);
 }

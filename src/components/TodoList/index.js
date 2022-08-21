@@ -1,18 +1,19 @@
 import './TodoList.css'
 function TodoList(props) {
     //! Asi se pueden usar render propos y render functions indiscriminadamente
-const renderFunc = props.children || props.render;
-    return(
-        <section className='TodoList-container'>
+    const renderFunc = props.children || props.render;
+    return (
+        <section className='TodoList-container' >
             {props.error && props.onError()}
             {props.loading && props.onLoading()}
 
             {(!props.loading && !props.totalTodos) && props.onEmptyTodos()}
-            
+
             {(!!props.totalTodos && !props.searchedTodos.length) && props.onEmptySearchResults(props.searchText)}
 
-            {props.searchedTodos.map(renderFunc)}
-        </section>
+            {(!props.loading && !props.error) && props.searchedTodos.map(renderFunc)}
+        </ section>
+
     );
 }
 

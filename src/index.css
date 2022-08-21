@@ -11,7 +11,7 @@
   --completedSecondary: #30b940;
   --error: #e45f5f;
   --errorSecondary: #e44a4a;
-  --backgroundBig: url(https://e621.net/packs/static/bbf4af533456131bea3c.png);
+  --backgroundLarge: url(https://e621.net/packs/static/bbf4af533456131bea3c.png);
   --backgroundSmall: url(https://e621.net/packs/static/b4fc28b5d7c3eb96e7b0.png);
 }
 * {
@@ -31,7 +31,7 @@ body {
   font-size: 1.8rem;
   background-color: var(--background);
   min-height: 100vh;
-  background-image: var(--backgroundBig);
+  background-image: var(--backgroundLarge);
   color: var(--primaryText);
 }
 

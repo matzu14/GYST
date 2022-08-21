@@ -27,6 +27,9 @@
     opacity: 0;
     display: none;
 }
+.img-wrapper:hover{
+    cursor: default;
+}
 .img-wrapper:hover .header-logo:last-child{
     opacity: 1;
     display: block;

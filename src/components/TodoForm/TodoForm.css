@@ -24,7 +24,7 @@ textarea {
     font-size: 2rem;
     text-align: center;
     background-color: var(--secondaryBackground);
-    background-image: var(--backgroundBig);
+    background-image: var(--backgroundLarge);
     color: var(--primrayText);
 }
 
@@ -61,6 +61,10 @@ code {
     border-radius: 1.5rem;
     width: 15rem;
     height: 6rem;
+    transition: border-radius .2s ease-in-out, background-color .2s ;
+}
+.button:hover {
+    border-radius: 10rem;
 }
 
 .add-button {
