@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/gyst/static/css/main.4740bcd2.css",
-    "main.js": "/gyst/static/js/main.a21ccd23.js",
+    "main.css": "/gyst/static/css/main.55b8bcc1.css",
+    "main.js": "/gyst/static/js/main.d345a3aa.js",
+    "static/media/piko-dancing.gif": "/gyst/static/media/piko-dancing.833a4e12d42d8edb96b8.gif",
     "index.html": "/gyst/index.html",
-    "main.4740bcd2.css.map": "/gyst/static/css/main.4740bcd2.css.map",
-    "main.a21ccd23.js.map": "/gyst/static/js/main.a21ccd23.js.map"
+    "main.55b8bcc1.css.map": "/gyst/static/css/main.55b8bcc1.css.map",
+    "main.d345a3aa.js.map": "/gyst/static/js/main.d345a3aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.4740bcd2.css",
-    "static/js/main.a21ccd23.js"
+    "static/css/main.55b8bcc1.css",
+    "static/js/main.d345a3aa.js"
   ]
 }

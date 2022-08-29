@@ -37,3 +37,7 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
+
+//! Asi se pueden usar render propos y render functions indiscriminadamente
+
+//! Guardao por si acaso
