@@ -14,7 +14,7 @@ import { TodosError } from '../components/TodosError';
 import { TodosLoading } from '../components/TodosLoading';
 import { EmptyTodos } from '../components/EmptyTodos';
 import { TodoHeader } from "../components/TodoHeader";
-import { ChangeAlertWithStorageListener } from '../components/ChangeAlert';
+import { ChangeAlert } from '../components/ChangeAlert';
 
 //! Guardao por si acaso
 // function App() {
@@ -140,7 +140,7 @@ function App() {
         openModal={openModal}
       />
 
-      <ChangeAlertWithStorageListener
+      <ChangeAlert
         sincronize={sincronizeTodos}
       />
     </>

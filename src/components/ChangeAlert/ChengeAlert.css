@@ -37,4 +37,5 @@
     right: 0;
     bottom: 0;
     background-color: var(--backgroundTransparent);
+    backdrop-filter: blur(.3rem);
 }
