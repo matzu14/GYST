@@ -13,6 +13,7 @@
   --errorSecondary: #e44a4a;
   --backgroundLarge: url(https://e621.net/packs/static/bbf4af533456131bea3c.png);
   --backgroundSmall: url(https://e621.net/packs/static/b4fc28b5d7c3eb96e7b0.png);
+  --backgroundMid: url();
 }
 * {
   margin: 0;
